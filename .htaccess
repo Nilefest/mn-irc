@@ -1,0 +1,20 @@
+# Установка кодировки
+AddDefaultCharset utf-8
+
+# Запрет листинга директории
+Options -Indexes
+
+RewriteEngine on 
+
+# Редирект с поддоменов
+#RewriteCond %{HTTP_HOST} ^domain.ru
+#RewriteRule (.*) http://domain.ru/$1 [R=301,L]
+
+# Настройки ЧПУ
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ index.php?action=$1 [L,QSA]
+# HTID:6729195: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:6729195:

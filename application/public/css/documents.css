@@ -1,0 +1,45 @@
+header {
+    position: fixed;
+}
+
+content .document {
+    padding-top: 50px;
+    color: #333;
+}
+
+content .document p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+content .document h1,
+content .document h2,
+content .document h3 {
+    text-transform: uppercase;
+}
+
+content .document h1,
+content .document h2 {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+content .document h1 {
+    font-size: 45px;
+}
+
+content .document h2 {
+    font-size: 30px;
+}
+
+content .document h3 {
+    text-align: left;
+    padding: 15px 0px;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+@media all and (max-width: 550px) {
+    .document{
+        margin-top: 50px;
+    }
+}

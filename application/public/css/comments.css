@@ -1,0 +1,66 @@
+div {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.comment {
+    border: 1px solid #500;
+    margin: 10px;
+    width: 80%;
+    margin-left: 15%;
+}
+
+.comment:nth-child(even) {
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+.comment h3 {
+    background-color: #fdd !important;
+}
+
+.comment .date {
+    padding-right: 15px;
+    text-align: right;
+    font-size: 15px;
+    color: #aaa;
+}
+
+label,
+input[type="text"],
+input[type="mail"],
+input[type="password"],
+textarea {
+    width: 80%;
+    margin: 5px 10%;
+}
+
+label {
+    color: #10509b;
+    font-weight: 600;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+input[type="button"],
+input[type="submit"] {
+    background-color: #080;
+    padding: 5px 20px;
+    margin: 10px 50%;
+    right: 0px;
+    transition: all .4s;
+    border: 1px solid #030;
+    ;
+}
+
+input[type="button"]:hover,
+input[type="submit"]:hover {
+    background-color: #0a0;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+@media all and (max-width: 750px) {}

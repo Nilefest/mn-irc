@@ -1,0 +1,96 @@
+/*
+.sitebar,
+.sitebar + .article {
+    float: left;
+}
+
+.sitebar {
+    width: 20%;
+}
+
+.sitebar ul {
+    margin: 0px 5px;
+    padding: 0px;
+}
+
+.sitebar ul li {
+    border-bottom: 1px solid #500;
+    margin: 10px;
+    width: 80%;
+    list-style: none;
+    display: block;
+    color: #800;
+    font-size: 20px;
+    padding-left: 10px;
+    transition: all .4s;
+}
+
+.sitebar ul li:hover {
+    cursor: pointer;
+    color: #300;
+    background-color: #fed;
+    transition: all .2s;
+}
+
+.sitebar + .article {
+    width: 80%;
+}/**/
+
+.new {
+    margin: 10px 0px;
+}
+
+.new h3 {
+    background-color: #fdd !important;
+}
+
+.new .date,
+.new a.more {
+    text-align: right;
+    font-size: 15px;
+}
+
+.new .date {
+    color: #aaa;
+}
+
+.new a.more {
+    color: #888;
+    font-size: 17px;
+    display: block;
+    margin: 3px 0px;
+    padding: 0px 20px;
+    transition: all .4s;
+}
+
+.new a.more:hover {
+    background-color: #fed;
+    color: #111;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+.new img,
+.new p {
+    float: left;
+}
+
+.new img {
+    width: 30% !important;
+    margin: 0px !important;
+}
+
+.new p {
+    width: 70% !important;
+    font-size: 17px !important;
+}
+
+@media all and (max-width: 750px) {
+    .sitebar {
+        width: 80%;
+        margin: 0px 10%;
+    }
+    .sitebar + .article {
+        width: 100%;
+    }
+}
